@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ 
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
+
+   font-family: 'Roboto', sans-serif;;
+}
+ 
+:root{
+   font-size: 62.5%;
+}
+
+main{
+   display: grid !important;
+   height: 100vh;
+   place-content: center;
+   grid-template-areas:  "a b" ;
+   gap: 10rem;
+   align-items: center;
+}
+
+.time{
+   font-size: 10.3rem;
+   font-weight: 500;
+}
+
+.control{
+   display: flex;
+
+   margin-top: 1.7rem;
+   font-size: 5rem;
+}
+
+.control i{
+   width:7rem;
+   height: 4.8rem;
+}
+
+.control i:hover{
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.themes{
+   display: grid;
+   grid-template-areas: 
+   "a b"
+   "c d";
+
+   gap: 3.2rem;
+}
+
+button{
+   width: 9rem;
+   height: 11rem;
+   border: none;
+   border-radius: 2.4rem;
+   background: #E1E1E6;
+   font-size: 5.5rem !important;
+}
+
+button:hover{
+   cursor: pointer;
+   outline: 2px solid #bdbdc2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide{
+   display: none;
+}
+
+/* ESCONDER SETA DO SELECT 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    text-indent: 1px; 
+    text-overflow: '';
+*/
